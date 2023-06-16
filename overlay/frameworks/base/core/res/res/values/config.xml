@@ -383,7 +383,10 @@
     <bool name="config_enableShellMainThread">true</bool>
 
     <!-- Whether device supports in-display fingerprint -->
-    <bool name="config_supportsUdfps">false</bool>
+    <bool name="config_supportScreenOffUdfps">false</bool>
+    
+    <!-- Whether device has notification LED -->
+    <bool name="config_hasNotificationLed">true</bool>
     
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
