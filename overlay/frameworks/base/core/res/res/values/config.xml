@@ -390,4 +390,5 @@
     
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
+    <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">0.5</item>
 </resources>
