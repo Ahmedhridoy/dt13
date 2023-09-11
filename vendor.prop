@@ -131,6 +131,13 @@ media.mediadrmservice.enable=true
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
+# Dirac
+ro.audio.soundfx.dirac=true
+persist.audio.dirac.speaker=true
+persist.dirac.acs.controller=qem
+persist.dirac.acs.ignore_error=1
+persist.dirac.acs.storeSettings=1
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
