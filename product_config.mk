@@ -1,4 +1,4 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_lavender.mk
+    $(LOCAL_DIR)/derp_lavender.mk
 
-COMMON_LUNCH_CHOICES := xtended_lavender-userdebug
+COMMON_LUNCH_CHOICES := derp_lavender-userdebug
