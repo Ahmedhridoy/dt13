@@ -200,6 +200,9 @@ persist.vendor.delta_time.enable=true
 # Zygote
 zygote.critical_window.minute=10
 
+# Multi-gen LRU
+persist.device_config.mglru_native.lru_gen_config=all
+
 # App launch prefetching (IORapd)
 ro.iorapd.enable=false
 iorapd.perfetto.enable=false
