@@ -241,6 +241,10 @@ on property:init.svc.zygote=running
 on property:init.svc.zygote=restarting
     stop ppd
 
+on property:sys.boot_completed=1
+    write /sys/kernel/slab/zs_handle/store_user 0
+    write /sys/kernel/slab/zspage/store_user 0
+
 on charger
     start qcom-post-boot
     start vendor.hvdcp_opti
