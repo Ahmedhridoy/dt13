@@ -19,6 +19,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 DERP_BUILDTYPE := NoobEdition
 EXTRA_UDFPS_ANIMATIONS := false
 TARGET_USES_BLUR := false
+TARGET_NOT_USES_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
