@@ -37,7 +37,8 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI \
-    SystemUIGoogle
+    SystemUIGoogle \
+    SettingsGoogle
 
 # Permissions
 PRODUCT_COPY_FILES += \
