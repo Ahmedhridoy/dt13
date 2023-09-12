@@ -81,6 +81,12 @@ on boot
     chown system system /sys/class/power_supply/battery/input_suspend
     chown system system /sys/class/power_supply/battery/charging_enabled
 
+   # Touchpanel
+    chown system system /sys/touchpanel/double_tap
+
+    # Goodix
+    mkdir /data/gf_data 0700 system system
+
     # Thermal
     chmod 0770 /sys/class/power_supply/battery/device/thermalcall
     chown system system /sys/class/power_supply/battery/device/thermalcall
