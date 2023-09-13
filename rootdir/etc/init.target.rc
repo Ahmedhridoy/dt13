@@ -121,9 +121,7 @@ on boot
     mkdir /data/vendor/camera 0770 camera camera
 
 # Double Tap to Wake
-    chown system system /proc/tp_gesture
     chown system system /sys/touchpanel/double_tap
-    chmod 0660 /proc/tp_gesture
     chmod 0660 /sys/touchpanel/double_tap
 
 #Load WLAN driver
@@ -139,7 +137,6 @@ on boot
     setprop sys.usb.configfs 1
 
     chmod 0664 /sys/touchpanel/capacitive_keys
-    chmod 0664 /sys/touchpanel/double_tap
     chmod 0664 /sys/touchpanel/reversed_keys
 
 #Peripheral manager
