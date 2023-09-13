@@ -26,6 +26,9 @@
 # IR HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.ir@1\.0-service\.lavender                        u:object_r:hal_ir_default_exec:s0
 
+# DT2W
+/sys/touchpanel/double_tap                      u:object_r:sysfs_touchpanel:s0
+
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.lavender                     u:object_r:hal_light_default_exec:s0
 
