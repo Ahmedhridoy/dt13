@@ -57,8 +57,6 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so|181a8ab9b1d40705d3151821b53732c5566a284
 
 # Audio - from jasmine
 vendor/lib/soundfx/libasphere.so|b1b26f99d9fbfe75f109349de5505ca39ccd4c8c
-vendor/lib/soundfx/libdirac.so
-vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
 vendor/lib/soundfx/libqcreverb.so|eb437cd5e264b1adb4546c6a5617c5da17be5839
 vendor/lib/soundfx/libqcvirt.so|ee9eaa81bb24ac0379e06b44ef257967a4d32614
@@ -69,7 +67,14 @@ vendor/lib/libadiertac.so|ebdd9b6c4e64b38ef39401b1a1e03696583440dc
 vendor/lib/libadm.so|d7c7d22c4fe53312e1e49fbffd587b25fdf0ac89
 vendor/lib/libaudcal.so|f935b8c33972b8cee40f760478f1b64a54705683
 vendor/lib/libqtigef.so|e0c548247e923f1e972e7765a678566dd874afb7
-vendor/lib64/soundfx/libdirac.so
+# Dirac - from jasmine V11.0.23.0.QDIMIXM
+vendor/etc/diracmobile.config|88fa19095df9e256f0af510df266f749bf60e258
+vendor/etc/diracvdd.bin|f9b07ace60490649c44411504909c7bf8bc73d59
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+
+# Audio FX modules - from ginkgo MIUI V12.0.1.0.RCOCNXM
+vendor/lib/soundfx/libmisoundfx.so|b96beb7c9aaded46a15bdbe8079b84d2beec9911
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
