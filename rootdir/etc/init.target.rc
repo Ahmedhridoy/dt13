@@ -29,7 +29,7 @@
 
 on init
     write /dev/stune/foreground/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.boost 5
+    write /dev/stune/top-app/schedtune.boost 10
     write /dev/stune/top-app/schedtune.prefer_idle 1
 
     # Setup permission for Power HAL
@@ -51,7 +51,6 @@ on init
     chmod 0664 /sys/class/kgsl/kgsl-3d0/idle_timer
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/min_freq
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_trigger_count
-    chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory
 
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
